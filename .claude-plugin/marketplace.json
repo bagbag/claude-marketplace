@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "tstdl",
+  "owner": {
+    "name": "Patrick Hein",
+    "url": "https://github.com/bagbag"
+  },
+  "metadata": {
+    "description": "Claude Code plugins for the @tstdl ecosystem.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "tstdl-base",
+      "description": "Skills for application developers building on @tstdl/base — core conventions and per-module patterns (DI, ORM, contract-first APIs).",
+      "category": "library",
+      "tags": ["tstdl", "typescript", "di", "orm", "api"],
+      "source": {
+        "source": "npm",
+        "package": "@tstdl/base",
+        "version": "*"
+      }
+    }
+  ]
+}
