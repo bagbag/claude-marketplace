@@ -6,7 +6,7 @@ Claude Code plugin marketplace for the `@tstdl` ecosystem.
 
 | Name | Description |
 | :--- | :--- |
-| [`tstdl-base`](https://www.npmjs.com/package/@tstdl/base) | Skills for application developers building on `@tstdl/base` — core conventions, DI, ORM, contract-first APIs. |
+| [`tstdl-base`](https://www.npmjs.com/package/@tstdl/base) | Scaffolding (`init`), core conventions, and per-module patterns for `@tstdl/base` consumers. Versioned with the npm package. |
 
 ## Install
 
@@ -16,13 +16,13 @@ In your Claude Code session, add this marketplace once:
 /plugin marketplace add bagbag/claude-marketplace
 ```
 
-Then install a plugin:
+Then install:
 
 ```
 /plugin install tstdl-base
 ```
 
-Skills become available namespaced as `tstdl-base:core`, `tstdl-base:orm`, `tstdl-base:api`, `tstdl-base:injector`.
+Skills become available namespaced as `tstdl-base:init`, `tstdl-base:core`, `tstdl-base:orm`, `tstdl-base:api`, `tstdl-base:injector`.
 
 ## Updates
 

@@ -12,9 +12,9 @@
   "plugins": [
     {
       "name": "tstdl-base",
-      "description": "Skills for application developers building on @tstdl/base — core conventions and per-module patterns (DI, ORM, contract-first APIs).",
+      "description": "Skills for application developers building on @tstdl/base — scaffolding (init), core conventions, and per-module patterns.",
       "category": "library",
-      "tags": ["tstdl", "typescript", "di", "orm", "api"],
+      "tags": ["tstdl", "typescript", "di", "orm", "api", "scaffold"],
       "source": {
         "source": "npm",
         "package": "@tstdl/base",
