@@ -18,7 +18,7 @@
       "source": {
         "source": "npm",
         "package": "@tstdl/base",
-        "version": "*"
+        "version": ">=0.94.0"
       }
     }
   ]
