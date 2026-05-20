@@ -16,9 +16,9 @@
       "category": "library",
       "tags": ["tstdl", "typescript", "di", "orm", "api", "scaffold"],
       "source": {
-        "source": "npm",
-        "package": "@tstdl/base",
-        "version": "0.94.1"
+        "source": "github",
+        "repo": "bagbag/tstdl",
+        "ref": "skills"
       }
     }
   ]
